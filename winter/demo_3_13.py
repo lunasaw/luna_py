@@ -2,7 +2,7 @@
 # @Time: 2020/3/13 23:55
 # @Author: luna
 # @Email: 15696756582@163.com
-# @File: demo_3_12.py
+# @File: demo_3_13.py
 
 # 继承
 
@@ -46,4 +46,29 @@ print(type(s.sayAge))
 
 print(s)
 
+
 # 多继承 从左到右 依次覆盖掉
+
+# 测试单例模式
+
+class MySingleton:
+	__obj = None
+	__init__flag = True  # 标志 是否已经创建
+
+	def __new__(cls, *args, **kwargs):
+		if cls.__obj == None:
+			cls.__obj = object.__new__(cls)
+
+		return cls.__obj
+
+	def __init__(self, name):
+		if MySingleton.__init__flag:
+			print("__init__")
+			self.name = name
+			MySingleton.__init__flag = False
+
+
+a = MySingleton("aa")
+print(a)
+b = MySingleton("bb")
+print(b)
