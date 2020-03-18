@@ -2,7 +2,7 @@
 # @Time: 2020/3/16 22:54
 # @Author: luna
 # @Email: 15696756582@163.com
-# @File: demo_3_16.py
+# @File: demo_3_16_bin.py
 
 # 二进制文件操作
 with open(r"../guiTest/imgs/puke/puke3.gif", "rb") as f:
