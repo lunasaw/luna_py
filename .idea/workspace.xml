@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97411634-e913-4f01-b5e1-07b02788cfab" name="默认更改列表" comment="os 模块">
-      <change afterPath="$PROJECT_DIR$/io/demo_3_19_os.path.py" afterDir="false" />
+    <list default="true" id="97411634-e913-4f01-b5e1-07b02788cfab" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/io/demo_3_19_os.path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#137#146#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -301,7 +297,7 @@
       <workItem from="1584370448062" duration="1830000" />
       <workItem from="1584461305167" duration="2184000" />
       <workItem from="1584543124590" duration="1970000" />
-      <workItem from="1584634585124" duration="1333000" />
+      <workItem from="1584634585124" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="rename">
       <created>1583652831869</created>
@@ -380,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584544952373</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="os.path 模块">
+      <created>1584635948906</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584635948906</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -392,7 +395,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48948000" />
+    <option name="totallyTimeSpent" value="49005000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -405,14 +408,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17948718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932525" visible="true" weight="0.35582823" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932525" weight="0.452454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -460,6 +462,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -501,6 +506,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="rename" />
     <MESSAGE value="turtle 佩奇" />
@@ -510,7 +517,8 @@
     <MESSAGE value="推导式" />
     <MESSAGE value="csv文件" />
     <MESSAGE value="os 模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="os 模块" />
+    <MESSAGE value="os.path 模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="os.path 模块" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -712,11 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/io/demo_3_19_os.path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#137#146#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="118">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
