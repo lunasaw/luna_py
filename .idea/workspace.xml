@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97411634-e913-4f01-b5e1-07b02788cfab" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/expect/demo_3_24_except_finally.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expect/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expect/demo_3_26_own_except.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiTest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/demo_3_27_module.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expect/demo_3_23_except.py" beforeDir="false" afterPath="$PROJECT_DIR$/expect/demo_3_23_except.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,26 +31,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/expect/demo_3_24_except_finally.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expect/except.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,6 +76,9 @@
         <option value="$PROJECT_DIR$/expect.py" />
         <option value="$PROJECT_DIR$/expect/demo_3_23_except.py" />
         <option value="$PROJECT_DIR$/expect/demo_3_24_except_finally.py" />
+        <option value="$PROJECT_DIR$/expect/demo_3_26_own_except.py" />
+        <option value="$PROJECT_DIR$/module/demo_3_27_module.py" />
+        <option value="$PROJECT_DIR$/module/__init__.py" />
       </list>
     </option>
   </component>
@@ -117,16 +105,6 @@
             </path>
             <path>
               <item name="LunaPy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LunaPy" type="462c0819:PsiDirectoryNode" />
-              <item name="expect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LunaPy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LunaPy" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LunaPy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -143,7 +121,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/expect" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -151,15 +129,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myproject\pythonTest" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myproject\LunaPy\module_1" />
       <recent name="D:\myproject\pythonTest\io" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\myproject\pythonTest\io" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myproject\LunaPy\expect" />
+      <recent name="D:\myproject\LunaPy\guiTest" />
+      <recent name="D:\myproject\LunaPy\io" />
+      <recent name="D:\myproject\LunaPy\module" />
+      <recent name="D:\myproject\pythonTest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,51 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo_3_24_except_finally">
-    <configuration name="demo_3_19_os.path" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LunaPy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/io" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/io/demo_3_19_os.path.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo_3_20_os.walk" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LunaPy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/io" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/io/demo_3_20_os.walk.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.demo_3_27_module">
     <configuration name="demo_3_21_recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LunaPy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,13 +223,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo_3_26_own_except" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LunaPy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/expect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expect/demo_3_26_own_except.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_3_27_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LunaPy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\myproject\LunaPy\module_1\demo_3_27_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo_3_27_module" />
+        <item itemvalue="Python.demo_3_26_own_except" />
         <item itemvalue="Python.demo_3_24_except_finally" />
         <item itemvalue="Python.demo_3_23_except" />
         <item itemvalue="Python.demo_3_21_recursion" />
-        <item itemvalue="Python.demo_3_20_os.walk" />
-        <item itemvalue="Python.demo_3_19_os.path" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +303,8 @@
       <workItem from="1584721814718" duration="1851000" />
       <workItem from="1584809142098" duration="1237000" />
       <workItem from="1584896888555" duration="2190000" />
-      <workItem from="1584973287966" duration="3671000" />
+      <workItem from="1584973287966" duration="3771000" />
+      <workItem from="1585235654302" duration="4494000" />
     </task>
     <task id="LOCAL-00001" summary="rename">
       <created>1583652831869</created>
@@ -428,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584898202483</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="traceback 模块">
+      <created>1584980742414</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584980742414</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -440,7 +430,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58386000" />
+    <option name="totallyTimeSpent" value="62980000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -453,14 +443,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19433199" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22672065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932525" visible="true" weight="0.35429448" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932525" visible="true" weight="0.2607362" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,7 +460,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006748" side_tool="true" weight="0.3297546" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932525" weight="0.3297546" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3297546" />
-      <window_info anchor="bottom" id="调试" order="13" weight="0.3297546" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.41717792" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3297546" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -566,11 +555,13 @@
     <MESSAGE value="os.path 模块" />
     <MESSAGE value="shutil, zip模块 ,os.walk初步" />
     <MESSAGE value="except 结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="except 结构" />
+    <MESSAGE value="traceback 模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="traceback 模块" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LunaPy$demo_3_26_own_except.coverage" NAME="demo_3_26_own_except Coverage Results" MODIFIED="1585239294260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expect" />
     <SUITE FILE_PATH="coverage/pythonTest$pytest_for_demo_test.coverage" NAME="pytest for demo.test Coverage Results" MODIFIED="1583734084753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_18_os.coverage" NAME="demo_3_18_os Coverage Results" MODIFIED="1584544894181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io" />
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_21_recursion.coverage" NAME="demo_3_21_recursion Coverage Results" MODIFIED="1584810259438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io" />
@@ -582,6 +573,7 @@
     <SUITE FILE_PATH="coverage/pythonTest$demo01_Window.coverage" NAME="demo01-Window Coverage Results" MODIFIED="1584370508073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guiTest" />
     <SUITE FILE_PATH="coverage/pythonTest$pytest_in_demo_py.coverage" NAME="pytest in demo.py Coverage Results" MODIFIED="1583734119168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_12.coverage" NAME="demo_3_12 Coverage Results" MODIFIED="1584116673501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
+    <SUITE FILE_PATH="coverage/LunaPy$demo_3_27_module.coverage" NAME="demo_3_27_module Coverage Results" MODIFIED="1585240747534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module" />
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_13.coverage" NAME="demo_3_13 Coverage Results" MODIFIED="1584191465861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/pythonTest$peiqi.coverage" NAME="peiqi Coverage Results" MODIFIED="1583677049453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/LunaPy$demo_3_23_except.coverage" NAME="demo_3_23_except Coverage Results" MODIFIED="1584979247481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expect" />
@@ -593,21 +585,6 @@
     <SUITE FILE_PATH="coverage/LunaPy$demo_3_24_except_finally.coverage" NAME="demo_3_24_except_finally Coverage Results" MODIFIED="1584980692248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expect" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/second/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/second/b.txt" />
-    <entry file="file://$PROJECT_DIR$/second/demo03-OsSystem.py" />
-    <entry file="file://D:/Anaconda3/Lib/turtle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="3157" selection-start-line="3157" selection-end-line="3157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winter/demo.py" />
-    <entry file="file://$PROJECT_DIR$/winter/demo_3_8.py" />
-    <entry file="file://$PROJECT_DIR$/winter/demo_3_9.py" />
-    <entry file="file://$PROJECT_DIR$/winter/demo_3_10.py" />
-    <entry file="file://$PROJECT_DIR$/winter/demo_3_11.py" />
     <entry file="file://$PROJECT_DIR$/winter/peiqi.py" />
     <entry file="file://$PROJECT_DIR$/winter/demo_3_14.py" />
     <entry file="file://$PROJECT_DIR$/winter/demo_3_13.py" />
@@ -627,7 +604,6 @@
     <entry file="file://$PROJECT_DIR$/guiTest/demo01-Window.py" />
     <entry file="file://$PROJECT_DIR$/io/pukeCopy.gif" />
     <entry file="file://$PROJECT_DIR$/sumer/day13-SingletonFactory.py" />
-    <entry file="file://$PROJECT_DIR$/io/demo_3_17_csv.py" />
     <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$PROJECT_DIR$/io/3_18_2.csv" />
     <entry file="file://$PROJECT_DIR$/io/3_18.csv" />
@@ -635,7 +611,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/io/demo_3_18_os.py" />
     <entry file="file://$PROJECT_DIR$/io/demo_3_19_os.path.py" />
-    <entry file="file://$PROJECT_DIR$/second/__init__.py" />
     <entry file="file://$PROJECT_DIR$/io/movie/hongkong/Andy Lau/刘德华.txt" />
     <entry file="file://$PROJECT_DIR$/io/movie/hongkong/Andy Lau/刘德华.html" />
     <entry file="file://$PROJECT_DIR$/io/demo_3_20_os.walk.py" />
@@ -664,6 +639,7 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -678,6 +654,7 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="597.0" y="178.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -707,11 +684,12 @@
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-300.5" y="195.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-300.0" y="195.0" />
           <SelectedNodes>
             <node>ValueError</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -728,9 +706,10 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="56.5" y="133.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="133.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -742,13 +721,6 @@
     </entry>
     <entry file="file://D:/Anaconda3/Lib/pickle.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expect/demo_3_23_except.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/io/demo_3_15_file.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -766,17 +738,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/expect/except.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expect/demo_3_23_except.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/expect/demo_3_24_except_finally.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="-9">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="823" selection-start-line="823" selection-end-line="823" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expect/demo_3_26_own_except.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/demo_3_27_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/demo_3_17_csv.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guiTest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expect/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
