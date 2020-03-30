@@ -5,7 +5,7 @@
 # @File: demo_3_24_except_finally.py
 
 try:
-	f = open("../io/a.txt", "r")
+	f = open("../doFile/a.txt", "r")
 	content = f.readline()
 	print(content)
 except:
@@ -22,7 +22,7 @@ print("程序结束")
 # 序列化
 import pickle
 
-with open(r"../io/b.dat", "rb") as m:
+with open(r"../doFile/b.dat", "rb") as m:
 	b1 = pickle.load(m)
 	b2 = pickle.load(m)
 	b3 = pickle.load(m)
