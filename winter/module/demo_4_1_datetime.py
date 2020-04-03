@@ -25,7 +25,7 @@ print(datetime.date.ctime(date))
 # datetime.timedelta
 print(datetime.date.today())  # 返回当前的年日月=>底层用time构造,封装了time的一些方法
 
-timedel = datetime.timedelta(hours=2)  # 获取两个小时的时间
+timedel = datetime.timedelta(days=1, hours=2)  # 获取两个小时的时间
 
 print(timedel)
 
