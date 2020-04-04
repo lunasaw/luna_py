@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97411634-e913-4f01-b5e1-07b02788cfab" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/winter/module/demo_4_3_regular.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winter/module/demo_4_3_pillow.py" beforeDir="false" />
-    </list>
+    <list default="true" id="97411634-e913-4f01-b5e1-07b02788cfab" name="默认更改列表" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/winter/module/demo_4_3_regular.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="398">
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
                 <element signature="e#131#146#0" expanded="true" />
               </folding>
@@ -336,7 +332,7 @@
       <workItem from="1585721467702" duration="6154000" />
       <workItem from="1585920898636" duration="3230000" />
       <workItem from="1585924173854" duration="2766000" />
-      <workItem from="1585927073358" duration="1859000" />
+      <workItem from="1585927073358" duration="1926000" />
     </task>
     <task id="LOCAL-00001" summary="rename">
       <created>1583652831869</created>
@@ -485,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585926263382</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="regular">
+      <created>1585928978685</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585928978685</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -497,7 +500,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86706000" />
+    <option name="totallyTimeSpent" value="86773000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -517,7 +520,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932525" visible="true" weight="0.40644172" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932525" weight="0.40644172" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -629,7 +632,8 @@
     <MESSAGE value="tk" />
     <MESSAGE value="time模块" />
     <MESSAGE value="ord hash pillow random" />
-    <option name="LAST_COMMIT_MESSAGE" value="ord hash pillow random" />
+    <MESSAGE value="regular" />
+    <option name="LAST_COMMIT_MESSAGE" value="regular" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1046,8 +1050,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/winter/module/demo_4_3_regular.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="398">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
             <element signature="e#131#146#0" expanded="true" />
           </folding>
