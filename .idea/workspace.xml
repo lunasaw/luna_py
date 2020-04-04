@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97411634-e913-4f01-b5e1-07b02788cfab" name="默认更改列表" comment="" />
+    <list default="true" id="97411634-e913-4f01-b5e1-07b02788cfab" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/winter/module/demo_4_4_regular.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winter/module/demo_4_3_regular.py" beforeDir="false" afterPath="$PROJECT_DIR$/winter/module/demo_4_3_regular.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winter/module/demo_4_3_regular.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-              <folding>
-                <element signature="e#131#146#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="808">
+              <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/winter/module/demo_4_4_regular.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -96,6 +106,7 @@
         <option value="$PROJECT_DIR$/winter/module/demo_4_3_hashlib.py" />
         <option value="$PROJECT_DIR$/winter/module/demo_4_3_pillow.py" />
         <option value="$PROJECT_DIR$/winter/module/demo_4_3_regular.py" />
+        <option value="$PROJECT_DIR$/winter/module/demo_4_4_regular.py" />
       </list>
     </option>
   </component>
@@ -178,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo_4_3_regular">
+  <component name="RunManager" selected="Python.demo_4_4_regular">
     <configuration name="demo_4_3_hashlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LunaPy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,28 +256,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo_4_3_random" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LunaPy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/winter/module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/winter/module/demo_4_3_random.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="demo_4_3_regular" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LunaPy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,13 +278,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo_4_4_regular" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LunaPy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/winter/module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/winter/module/demo_4_4_regular.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo_4_4_regular" />
         <item itemvalue="Python.demo_4_3_regular" />
         <item itemvalue="Python.demo_4_3_pillow" />
         <item itemvalue="Python.demo_4_3_hashlib" />
         <item itemvalue="Python.demo_4_3_ord" />
-        <item itemvalue="Python.demo_4_3_random" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +344,7 @@
       <workItem from="1585920898636" duration="3230000" />
       <workItem from="1585924173854" duration="2766000" />
       <workItem from="1585927073358" duration="1926000" />
+      <workItem from="1586009666052" duration="3694000" />
     </task>
     <task id="LOCAL-00001" summary="rename">
       <created>1583652831869</created>
@@ -500,7 +512,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86773000" />
+    <option name="totallyTimeSpent" value="90467000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -515,12 +527,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22132254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22469635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932525" weight="0.40644172" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932525" visible="true" weight="0.40644172" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -650,6 +662,7 @@
     <SUITE FILE_PATH="coverage/pythonTest$pytest_in_demo_py.coverage" NAME="pytest in demo.py Coverage Results" MODIFIED="1583734119168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/LunaPy$demo_3_27_module.coverage" NAME="demo_3_27_module Coverage Results" MODIFIED="1585240747534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module" />
     <SUITE FILE_PATH="coverage/LunaPy$demo_3_30_sys_path.coverage" NAME="demo_3_30_sys.path Coverage Results" MODIFIED="1585577959604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module" />
+    <SUITE FILE_PATH="coverage/LunaPy$demo_4_4_regular.coverage" NAME="demo_4_4_regular Coverage Results" MODIFIED="1586012754520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter/module" />
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_13.coverage" NAME="demo_3_13 Coverage Results" MODIFIED="1584191465861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/pythonTest$peiqi.coverage" NAME="peiqi Coverage Results" MODIFIED="1583677049453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/LunaPy$demo_3_23_except.coverage" NAME="demo_3_23_except Coverage Results" MODIFIED="1584979247481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expect" />
@@ -659,7 +672,7 @@
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_10.coverage" NAME="demo_3_10 Coverage Results" MODIFIED="1583816003461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/pythonTest$pytest_for_demo_test.coverage" NAME="pytest for demo.test Coverage Results" MODIFIED="1583734084753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_21_recursion.coverage" NAME="demo_3_21_recursion Coverage Results" MODIFIED="1584810259438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io" />
-    <SUITE FILE_PATH="coverage/LunaPy$demo_4_3_regular.coverage" NAME="demo_4_3_regular Coverage Results" MODIFIED="1585928825297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter/module" />
+    <SUITE FILE_PATH="coverage/LunaPy$demo_4_3_regular.coverage" NAME="demo_4_3_regular Coverage Results" MODIFIED="1586011773726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter/module" />
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_15.coverage" NAME="demo_3_15 Coverage Results" MODIFIED="1584250707393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/io" />
     <SUITE FILE_PATH="coverage/pythonTest$demo_3_8.coverage" NAME="demo_3_8 Coverage Results" MODIFIED="1583678409823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/winter" />
     <SUITE FILE_PATH="coverage/pythonTest$demo01_Window.coverage" NAME="demo01-Window Coverage Results" MODIFIED="1584370508073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guiTest" />
@@ -674,26 +687,6 @@
     <SUITE FILE_PATH="coverage/LunaPy$demo_3_24_except_finally.coverage" NAME="demo_3_24_except_finally Coverage Results" MODIFIED="1584980692248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expect" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Anaconda3/Lib/site-packages/win32/lib/sspi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486" />
-      </provider>
-    </entry>
-    <entry file="uml://Python/#D:/myproject/LunaPy/expect/demo_3_23_except.py">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#D:/myproject/LunaPy/expect/demo_3_23_except.py</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://AlchemyModelDependency/#LunaPy">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1048,13 +1041,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Anaconda3/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/winter/module/demo_4_3_regular.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          <folding>
-            <element signature="e#131#146#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="808">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winter/module/demo_4_4_regular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
